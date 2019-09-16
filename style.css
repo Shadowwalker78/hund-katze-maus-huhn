@@ -40,14 +40,39 @@ img{
 	background: green;
 }
 
-.float{
+.float {
 	width: 25%;
 	float: left;
 	padding: 10px;
+	position:relative;
 }
 
 .clear::after{
 	content: "";
 	display: block;
 	clear: both;
+}
+
+.float p {
+	background: white;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	padding: 5px;
+	width: 180px;
+}
+
+.wrapper {
+	position: relative;
+}
+
+.clear
+
+.hinweis {
+	display: done
+}
+
+a:hover .hinweis
+{
+	display: block;
 }
